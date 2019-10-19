@@ -1,0 +1,25 @@
+Pojêcia do omówienia:
+1. Pêtla for oraz iteracja po indeksach ³añcucha znaków
+2. Konstrukcja if, elif, else
+3. Tworzenie funkcji w³asnych
+4. Listy
+5. Rekurencja
+6. Import biblioteki numpy oraz wykorzystanie jej funkcji (mean, std)
+
+Dodatek matematyczny: œrednia, odchylenie standardowe œredniej, silnia, symbol Newtona, trójk¹t Pascala.
+Zadanie 1. 
+Utwórz skrypt z interfejsem tekstowym, który pobierze od u¿ytkownika zdanie i wyœwietli w kolejnych wierszach litery tego zdania w odwróconej kolejnoœci.
+Zadanie 2. 
+W klasie przeprowadzono sprawdzian, za który uczniowie mogli otrzymaæ maksymalnie 40 punktów. Skala ocen w szkole jest nastêpuj¹ca: 0-39% - ndst, 40-49% - dop, 50-69% - dst, 70-84% - db, 85-99% - bdb, 100% - cel. Utwórz skrypt z interfejsem tekstowym, który na podstawie podanej liczby punktów ze sprawdzianu wyœwietli ocenê jaka siê nale¿y (skorzystaj z konstrukcji if, elif, else). 
+Zadanie 3. 
+Utwórz skrypt z interfejsem tekstowym, który wyliczy sumê n kolejnych liczb (u¿ytkownik podaje pierwsz¹ i ostatni¹ liczbê sumy). Uwaga – w zadaniu nale¿y zbudowaæ funkcjê w³asn¹ realizuj¹c¹ dane zadanie.
+Zadanie 4. 
+Utwórz skrypt z interfejsem tekstowym, który przyjmie od u¿ytkownika ile elementów chce on wprowadziæ do listy, przyjmie te elementy, a nastêpnie wyliczy: œredni¹ i odchylenie standardowe œredniej. Wykonaæ zadanie na dwa sposoby: poprzez utworzenie funkcji w³asnych obliczaj¹cych œredni¹ i odchylenie standardowe oraz korzystaj¹c z gotowych funkcji np. z pakietu numpy.
+Zadanie 5. 
+Utwórz skrypt z interfejsem tekstowym który obliczy silniê od danego argumentu. Wykonaæ zadanie na dwa sposoby – iteracyjnie i rekurencyjnie.
+Zadanie 6. 
+Utworzyæ skrypt z interfejsem tekstowym obliczaj¹cy n-ty element ci¹gu Fibonacciego – wykonaæ zadanie iteracyjnie i rekurencyjnie. 
+Zadanie 7. 
+Utworzyæ skrypt z interfejsem tekstowym obliczaj¹cy symbol Newtona n po k. Utworzyæ funkcjê, która bêdzie wywo³ywaæ inn¹ funkcjê.
+Zadanie 8. 
+Utworzyæ skrypt z interfejsem tekstowym, który bêdzie zwracaæ wiersz n-tego rzêdu z trójk¹ta Pascala (u¿ytkownik podaje n, program zwraca odpowiadaj¹cy wiersz trójk¹ta).
