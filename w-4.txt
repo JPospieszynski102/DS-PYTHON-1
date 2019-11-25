@@ -1,0 +1,14 @@
+Korzystamy z bibliotek numpy i matplotlib
+
+Projekt:
+
+Utwórz symulacjê automatu komórkowego - gry w ¿ycie (game of life). Gra w ¿ycie stanowi ciekawy problem sieci komórek, który mo¿na opisaæ za pomoc¹ macierzy. Scena symulacji sk³ada siê z NxN pól, które mog¹ przyjmowaæ jeden z dwóch stanów - ¿ywy lub martwy. Symulacja sk³ada siê z nastêpuj¹cych po sobie kroków, aktualizuj¹cych stany komórek sceny. W ka¿dym kroku sprawdzany jest stan danej komórki oraz jej s¹siadów. W nowym kroku komórka mo¿e staæ siê ¿ywa lub martwa w zale¿noœci przyjêtych regu³. W projekcie korzystamy z regu³ Conwaya:
+- komórka umiera: jeœli komórka jest ¿ywa to umrze jeœli jest w "przeludnionym" otoczeniu, tzn. posiada 4 lub wiêcej ¿ywych s¹siadów lub jeœli jest w opustosza³ym otoczeniu - jeœli komórka ma mniej ni¿ 1 ¿ywego s¹siada to równie¿ umiera.
+- komórka rodzi siê: jeœli komórka jest martwa, stanie siê ¿ywa jeœli ma dok³adnie 3 ¿ywych s¹siadów
+- komórka nie zmienia stanu: pozosta³e przypadk, czyli komórka pozostaje ¿ywa je¿eli ma dok³adnie dwóch lub trzech ¿ywych s¹siadów, komórka pozostaje martwa je¿eli wokó³ niej jest dowolna sytuacja poza trzema ¿ywymi s¹siadami.
+Utworzony program powinien posiadaæ:
+1. Mo¿liwoœæ generowania pocz¹tkowej sceny
+2. Mo¿liwoœæ ustawiania na scenie pewnych szczególnych struktur (szybowiec, ceg³a, bochenek)
+3. Funkcjê obliczaj¹c¹ liczbê ¿ywych s¹siadów dla danej komórki
+4. Funckjê obliczaj¹c¹ nowy stan sceny
+5. Funckjê generuj¹c¹ animacjê wyników symulacji.
