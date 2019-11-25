@@ -1,3 +1,5 @@
 Projekt:
 
-Utwórz program do nauki obcych s³ówek. Program powinien posiadaæ interfejs tektowy, w którym u¿ytkownik wskazuje plik ze s³ówkami do nauki. Nastêpnie program importuje dane i wprowadza je do s³ownika. W kolejnym etapie program przepytuje uzytkownika z wiedzy zawartej w pliku ze s³ówkami. Program powinien wyliczaæ za ile dni u¿ytkownik powinien powtórzyæ naukê - jeœli odpowiedzia³ dobrze - za 7 dni, jeœli Ÿle - za 2 dni. Program tworzy nowy plik, który bêdzie zawieraæ informacje na temat daty ostatniej sesji nauki, id przerobionych s³ówek oraz za ile dni nale¿y odbyæ powtórkê.
+1. Utwórz program do nauki obcych s³ówek. Program powinien posiadaæ interfejs tektowy, w którym u¿ytkownik wskazuje plik ze s³ówkami do nauki. Nastêpnie program importuje dane i wprowadza je do s³ownika. W kolejnym etapie program przepytuje uzytkownika z wiedzy zawartej w pliku ze s³ówkami. Program powinien wyliczaæ za ile dni u¿ytkownik powinien powtórzyæ naukê - jeœli odpowiedzia³ dobrze - za 7 dni, jeœli Ÿle - za 0 dni. Program tworzy nowy plik, który bêdzie zawieraæ informacje na temat daty ostatniej sesji nauki, id przerobionych s³ówek oraz za ile dni nale¿y odbyæ powtórkê.
+
+2. Zmodyfikuj powy¿szy program, aby dodatkowo importowa³ log z poprzedniej sesji i aby odpytywa³ u¿ytkownika z zaplanowanej powtórki. 
