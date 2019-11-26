@@ -1,8 +1,31 @@
 Korzystamy z bibliotek numpy i matplotlib
 
+Zadanie 1.
+Korzystaj¹c z instrukcji np.random.choice oraz reshape z pakietu numpy stworzyæ funkcjê generuj¹ macierz kwadratow¹ stopnia N wype³nion¹ wartoœciami 0 i 255 w kosowy sposób.
+
+Zadanie 2.
+Utwórz funckjê, która na zadanej macierzy zapisze wzór ustalonych struktur (blok, ul, bochenek, ³ódka, œwiat³a uliczne, ¿aba, latarnia).
+
+Zadanie 3. 
+Utwórz funkcjê zale¿n¹ od numeru wiersza i kolumny macierzy (i, j), która bêdzie obliczaæ liczbê "¿ywych" komórek s¹siaduj¹cych wzglêdem komórki (i, j). Funkcja powinna mieæ zaimplementowane periodyczne warunki brzegowe.
+
+Zadanie 4. 
+Utwórz funkcjê wyliczaj¹c¹ nowy stan macierzy komórek, zgodnie z regu³ami Conway'a:
+1) Je¿li komórka jest ¿ywa to umiera gdy: 
+- posiada czterech i wiêcej ¿ywych s¹siadów (przeludnienie)
+- posiada jednego lub mniej ¿ywych s¹siadów (samotnoœæ)
+2) Je¿eli komórka jest martwa to o¿ywa jeœli ma dok³adnie trzech ¿ywych s¹siadów (nie mniej nie wiêcej)
+3) W pozosta³ych przypadkach stan komórki nie ulega zmianie
+- komórka pozostaje ¿ywa gdy ma dok³adnie dwóch lub trzech ¿ywych s¹siadów
+- komórka pozostaje martwa we wszystkich sytuacjach poza sytuacj¹ trzech ¿ywych s¹siadów
+
+Zadanie 5. 
+Utwórz funkcjê, wykonuj¹c¹ animacjê automatu komórkowego.
+
+
 Projekt:
 
-Utwórz symulacjê automatu komórkowego - gry w ¿ycie (game of life). Gra w ¿ycie stanowi ciekawy problem sieci komórek, który mo¿na opisaæ za pomoc¹ macierzy. Scena symulacji sk³ada siê z NxN pól, które mog¹ przyjmowaæ jeden z dwóch stanów - ¿ywy lub martwy. Symulacja sk³ada siê z nastêpuj¹cych po sobie kroków, aktualizuj¹cych stany komórek sceny. W ka¿dym kroku sprawdzany jest stan danej komórki oraz jej s¹siadów. W nowym kroku komórka mo¿e staæ siê ¿ywa lub martwa w zale¿noœci przyjêtych regu³. W projekcie korzystamy z regu³ Conwaya:
+Wykorzystuj¹c rozwi¹zania powy¿szych zadañ utwórz symulacjê automatu komórkowego - gry w ¿ycie (game of life). Gra w ¿ycie stanowi ciekawy problem sieci komórek, który mo¿na opisaæ za pomoc¹ macierzy. Scena symulacji sk³ada siê z NxN pól, które mog¹ przyjmowaæ jeden z dwóch stanów - ¿ywy lub martwy. Symulacja sk³ada siê z nastêpuj¹cych po sobie kroków, aktualizuj¹cych stany komórek sceny. W ka¿dym kroku sprawdzany jest stan danej komórki oraz jej s¹siadów. W nowym kroku komórka mo¿e staæ siê ¿ywa lub martwa w zale¿noœci przyjêtych regu³. W projekcie korzystamy z regu³ Conwaya:
 - komórka umiera: jeœli komórka jest ¿ywa to umrze jeœli jest w "przeludnionym" otoczeniu, tzn. posiada 4 lub wiêcej ¿ywych s¹siadów lub jeœli jest w opustosza³ym otoczeniu - jeœli komórka ma mniej ni¿ 1 ¿ywego s¹siada to równie¿ umiera.
 - komórka rodzi siê: jeœli komórka jest martwa, stanie siê ¿ywa jeœli ma dok³adnie 3 ¿ywych s¹siadów
 - komórka nie zmienia stanu: pozosta³e przypadk, czyli komórka pozostaje ¿ywa je¿eli ma dok³adnie dwóch lub trzech ¿ywych s¹siadów, komórka pozostaje martwa je¿eli wokó³ niej jest dowolna sytuacja poza trzema ¿ywymi s¹siadami.
