@@ -1,5 +1,58 @@
-Projekt:
+Kolejn¹ struktur¹ danych wbudowan¹ w bibliotekê standardow¹ Pythona jest s³ownik. S³ownik stanowni zbiór par elementów, tzw. klucza i wartoœci. Dostêp do przechowywanych wartoœci odbywa siê za pomoc¹ klucza. S³ownik jest ograniczony klamrami, klucze i wartoœci s¹ po³¹czone dwukropkiem a pary oddzielane przecinkiem. Mo¿na równie¿ tworzyæ s³ownik, zawieraj¹cy inne s³owniki.
 
-1. Utwórz program do nauki obcych s³ówek. Program powinien posiadaæ interfejs tektowy, w którym u¿ytkownik wskazuje plik ze s³ówkami do nauki. Nastêpnie program importuje dane i wprowadza je do s³ownika. W kolejnym etapie program przepytuje uzytkownika z wiedzy zawartej w pliku ze s³ówkami. Program powinien wyliczaæ za ile dni u¿ytkownik powinien powtórzyæ naukê - jeœli odpowiedzia³ dobrze - za 7 dni, jeœli Ÿle - za 0 dni. Program tworzy nowy plik, który bêdzie zawieraæ informacje na temat daty ostatniej sesji nauki, id przerobionych s³ówek oraz za ile dni nale¿y odbyæ powtórkê.
+Przyk³ad:
+punkty_ze_spr = {"Mateusz" : 20, "Marcin" : 12, "Adam" : 10}
 
-2. Zmodyfikuj powy¿szy program, aby dodatkowo importowa³ log z poprzedniej sesji i aby odpytywa³ u¿ytkownika z zaplanowanej powtórki. 
+moja_rodzina = {
+  "dziecko1" : {
+    "imie" : "Ernest",
+    "nazwisko" : 2006
+  },
+  "dziecko2" : {
+    "imie" : "Tomasz",
+    "nazwisko" : 2003
+  },
+  "dziecko3" : {
+    "imie" : "Albert",
+    "nazwisko" : 2001
+  }
+}
+
+Aby dostaæ siê do wartoœci po³¹czonej z danym elementem klucza nale¿y skorzystaæ ze sk³adni:
+nazwa_slownika[wartosc_klucza]
+lub nazwa_slownika.get(wartosc_klucza)
+
+Metody: 
+get() - zwraca wartoœæ odpowiadaj¹c¹ wartoœci klucza, 
+pop("wartosc_klucza") - usuwa parê odpowiadaj¹c¹ wartoœci klucza
+popitem() - usuwa ostatnio wprowadzon¹ parê
+clear() - czyœci ca³y s³ownik
+copy() - kopiuje s³ownik
+dict(inny_slownik) - tworzy nowy s³ownik kopiuj¹c inny
+fromkeys() - zwraca s³ownik o ustalonych wartoœciach klucza i przypisanych wartoœciach 
+items() - zwraca krotkê przechowuj¹c¹ pary s³ownika
+keys() - zwraca wartoœci klucza
+update() - pozwala dopisaæ do s³ownika parê klucz:wartoœæ
+values() - zwraca przechowywane wartoœci
+ 
+Utwórz s³ownik, zawieraj¹cy dane 6-ciu pracowników pewnej firmy (imiê, nazwisko, stanowisko, rok zatrudnienia, wyganrodzenie).  
+
+Zadania:
+
+1. Korzystaj¹c ze s³ownika, utwórz funkcjê, która bêdzie zwracaæ liczbê dni danego miesi¹ca w roku.
+
+2. Korzystaj¹c ze s³ownika, utwórz funkcjê, która bêdzie zwracaæ t³umaczenia nazw miesiêcy z jêzyka polskiego na angielski.
+
+3. Korzystaj¹c z instrukcji "sum" i "len" utwórz funkcjê zwracaj¹c¹ œredni¹ z elementów listy.
+
+4. Korzystaj¹c ze standardowej listy oraz jej metody sort utwórz funkcjê wyszukuj¹c¹ medianê w liœcie.
+
+5. Korzystaj¹c z biblioteki collections oraz obiektu Counter i metody most_common utwórz program wyznaczaj¹cy medianê.
+
+6. Utwórz funkcjê, która na podstawie listy elementów zwróci listê czêstotliwoœci wyst¹pieñ poszczególnych elementów
+
+7. Utwórz funcjê, która zwróci zakres wartoœci (wartoœæ najmniejsza i najwiêksz¹).
+
+8. Utwórz fukcjê obliczaj¹c¹ odchylenie standardowe.
+
+9. Utwórz funckjê obliczaj¹c¹ wspó³czynnik korelacji pomiêdzy dwoma zestawami danych. 
