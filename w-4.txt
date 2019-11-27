@@ -1,7 +1,7 @@
 Korzystamy z bibliotek numpy i matplotlib
 
 Zadanie 1.
-Korzystaj¹c z instrukcji np.random.choice oraz reshape z pakietu numpy stworzyæ funkcjê generuj¹ macierz kwadratow¹ stopnia N wype³nion¹ wartoœciami 0 i 255 w kosowy sposób.
+Korzystaj¹c z instrukcji np.random.choice oraz reshape z pakietu numpy stworzyæ funkcjê generuj¹ macierz kwadratow¹ stopnia N wype³nion¹ wartoœciami 0 i 255 w losowy sposób.
 
 Zadanie 2.
 Utwórz funckjê, która na zadanej macierzy zapisze wzór ustalonych struktur (blok, ul, bochenek, ³ódka, œwiat³a uliczne, ¿aba, latarnia).
