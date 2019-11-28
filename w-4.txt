@@ -20,7 +20,7 @@ Utwórz funkcjê wyliczaj¹c¹ nowy stan macierzy komórek, zgodnie z regu³ami Conway
 - komórka pozostaje martwa we wszystkich sytuacjach poza sytuacj¹ trzech ¿ywych s¹siadów
 
 Zadanie 5. 
-Utwórz funkcjê, wykonuj¹c¹ animacjê automatu komórkowego.
+Utwórz pêtlê, wykonuj¹c¹ seriê obrazów reperentuj¹cych stan uk³adu komórek oraz ich zapis do plików png. 
 
 
 Projekt:
