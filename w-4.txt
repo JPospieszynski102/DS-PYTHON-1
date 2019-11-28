@@ -7,7 +7,7 @@ Zadanie 2.
 Utwórz funckjê, która na zadanej macierzy zapisze wzór ustalonych struktur (blok, ul, bochenek, ³ódka, œwiat³a uliczne, ¿aba, latarnia).
 
 Zadanie 3. 
-Utwórz funkcjê zale¿n¹ od numeru wiersza i kolumny macierzy (i, j), która bêdzie obliczaæ liczbê "¿ywych" komórek s¹siaduj¹cych wzglêdem komórki (i, j). Funkcja powinna mieæ zaimplementowane periodyczne warunki brzegowe.
+Utwórz funkcjê zale¿n¹ od numeru wiersza i kolumny macierzy (i, j), która bêdzie obliczaæ liczbê "¿ywych" komórek s¹siaduj¹cych wzglêdem komórki (i, j). 
 
 Zadanie 4. 
 Utwórz funkcjê wyliczaj¹c¹ nowy stan macierzy komórek, zgodnie z regu³ami Conway'a:
