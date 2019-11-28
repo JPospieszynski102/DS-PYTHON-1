@@ -9,13 +9,11 @@ def addGlider(i, j, grid):
     glider = np.array([[0, 0, 255], [255, 0, 255], [0, 255, 255]])
     grid[i:i+3, j:j+3] = glider
 
-def neighboursSum(i, j, matrix):
-    N = matrix.shape[0]
-    
-    total = int((matrix[i, (j-1)%N] + matrix[i, (j+1)%N] +
-                        matrix[(i-1)%N, j] + matrix[(i+1)%N, j] +
-                        matrix[(i-1)%N, (j-1)%N] + matrix[(i-1)%N, (j+1)%N] +
-                        matrix[(i+1)%N, (j-1)%N] + matrix[(i+1)%N, (j+1)%N])/255)
+def neighboursSum(i, j, m):
+
+    total = int((m[i-1, j-1] + m[i-1, j] + m[i-1, j+1] + 
+						m[i, j-1] + m[i, j+1] + 
+						m[i+1, j-1] + m[i+1, j] + m[i+1, j+1])/255)
     return total
 
 def update(matrix):
@@ -24,8 +22,8 @@ def update(matrix):
     
     newmatrix = np.zeros(N*N).reshape(N, N)
     
-    for i in range(0, N):
-        for j in range(0, N):
+    for i in range(1, N-1):
+        for j in range(1, N-1):
             total = neighboursSum(i, j, matrix)
             
             if matrix[i, j] == 255:
@@ -39,5 +37,14 @@ def update(matrix):
     
     return newmatrix
 
-obraz = randomGrid(10)
-nowy_obraz = update(obraz)
+obraz = randomGrid(20)
+
+for i in range(20):
+    
+    plt.figure()
+    plt.imshow(obraz, cmap = 'Greys')
+    #plt.savefig("foto_"+str(i)+".png")
+    plt.savefig("foto_{0}".format(i))
+    obraz = update(obraz)
+    
+    
