@@ -1,0 +1,11 @@
+1. Utwórz fukcjê, która jako argument bêdzie przyjmowaæ listê liczb zmiennoprzecinkowych, a jej wynikiem bêdzie œrednia arytmetyczna. Porównaj jej wynik z wynikiem fukcji mean z pakietu numpy.
+2. Utwórz fukcjê, która jako argument bêdzie przyjmowaæ listê liczb zmiennoprzecinkowych, a jej wynikiem bêdzie mediana (skorzystaj z metody sort dzia³aj¹cej na standardowych listach).
+3. Utwórz funkcjê, która jako argument bêdzie przyjmowaæ listê liczb zmiennoprzecinkowych, a jej wynikiem bêdzie dominanta (moda). Skorzystaj z obiektu Counter i jego metody most_common z pakietu collections.
+4. Utwórz fukcjê, która jako argument bêdzie przyjmowaæ listê liczb zmiennoprzecinkowych, a jej wynikiem bêdzie odchylenie standardowe œredniej.
+5. Utwórz fukcjê, która jako argument bêdzie przyjmowaæ listê liczb zmiennoprzecinkowych, a jej wynikiem bêdzie drugi moment centralny (wariancja).
+6. Utwórz funkcjê, która jako argument bêdzie przyjmowaæ listê liczb zmiennoprzecinkowych, a jej wynikiem bêdzie trzeci moment centralny (skoœnoœæ).
+7. Utwórz funkcjê, która jako argument bêdzie przyjmowaæ listê liczb zmiennoprzecinkowych, a jej wynikiem bêdzie czwarty moment centralny (kurtoza).
+8. Utwórz funkcjê, która jako argument bêdzie przyjmowaæ dwie listy o równej liczbie elementów, a jej wynikiem bêdzie wspó³czynnik korelacji.
+9. Utwórz funkcjê, która jako argument bêdzie przyjmowaæ dwie listy o równej liczbie elementów, a jej wynikiem bêd¹ wspó³czynniki regresji liniowej.
+10. Wynegeruj listê 1000 liczb losowych o rozk³adzie normalnym. Wykreœl histogram oraz œredni¹, medianê, dominantê, odchylenie standardowe, wariancjê, skoœnoœæ i kurtozê.
+11. Utwórz w³asn¹ bibliotekê z funkcjami statystycznymi i umieœæ j¹ w katalogu lib œrodowiska python. Spróbój zaimportowaæ stworzone przez siebie funkcje.
