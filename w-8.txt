@@ -7,5 +7,6 @@ b) jaki jest stosunek liczby zatrudnionych kobiet do mê¿czyzn
 c) Kto w fimie zarabia najmniej a kto najwiêcej?
 d) Jakie jest œrednie wynagrodzenie w firmie?
 e) Jakie jest odchylenie standardowe wynagrodzenia w firmie?
+f) Zapisz raport ze swojej analizy do pliku.
 3. Wygeneruj samodzielnie listê 10-ciu pracowników, którym przypiszesz nr ID, Imiê, Nazwisko, p³eæ oraz wynagrodzenie. Nastêpnie korzystaj¹c z dokumentacji modu³u csv (https://docs.python.org/3/library/csv.html) zapisz swoj¹ listê do pliku csv.
 Korzystaj¹c 
