@@ -1,4 +1,4 @@
-Id;First Name;Last Name;Salary;Gender;Birth
+Id;First_Name;Last_Name;Salary;Gender;Birth
 1;Kowalski;Jan;4000;M;1987
 2;Nowak;Marta;5000;F;1986
 3;Marciniak;Anna;6000;F;1983
