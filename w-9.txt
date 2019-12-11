@@ -1,0 +1,6 @@
+Klasy i obiekty:
+
+1. Utwórz pust¹ klasê Figura, a nastêpnie utwórz dwie instancje tej klasy. SprawdŸ czy s¹ sobie równe.
+2. Utwórz klasê Kwadrat z konstruktorem ustalaj¹cym jego bok oraz metod¹ wyœwietlaj¹c¹ wartoœæ tego boku.
+3. Rozbuduj powy¿sz¹ klasê o metody obliczaj¹ce pole, obwód, oraz rysuj¹ce dan¹ figurê na wykresie.
+4. Utwórz klasê Prostok¹t, a nastêpnie na jej podstawie (korzystaj¹c z mechanizmu dziedziczenia) utwórz klasê Kwadrat.
